@@ -53,7 +53,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: 'repo.plus:443',
+      target: '154.12.178.99:443',
       //tooltip: '',
       statusPageLink: 'https://repo.plus',
       timeout: 10000,
