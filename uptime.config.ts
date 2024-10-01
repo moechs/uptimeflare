@@ -46,18 +46,6 @@ const workerConfig = {
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
       // checkLocationWorkerRoute: 'https://xxx.example.com',
     },
-    // Example TCP Monitor
-    {
-      id: 'plus_repo_tcp_monitor',
-      name: 'Plus Repo TCP Monitor',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'TCP_PING',
-      // `target` should be `host:port` for tcp monitors
-      target: '154.12.178.99:443',
-      //tooltip: '',
-      statusPageLink: 'https://repo.plus',
-      timeout: 10000,
-    },
   ],
   notification: {
     // [Optional] apprise API server URL
